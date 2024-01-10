@@ -1,0 +1,16 @@
+package bronze3;
+
+import java.util.Scanner;
+
+public class RegularityAlgorithm {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+
+        int res = 2;
+        for (int i = 1; i <= n; i++) {
+            res = (res-1) + res;
+        }
+        System.out.println(res*res);
+    }
+}
