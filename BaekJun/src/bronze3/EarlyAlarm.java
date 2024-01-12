@@ -1,6 +1,7 @@
 package bronze3;
 
 import java.util.Scanner;
+
 public class EarlyAlarm {
 //기상 시간 45분 전에 알람 울리기.
 	public static void main(String[] args) {
