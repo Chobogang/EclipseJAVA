@@ -22,6 +22,7 @@ public class MemberHashMapTest {
 		memberHashMap.showAllMember();
 		
 		HashMap<Integer, String> hashMap = new HashMap<>();
+		
 		hashMap.put(1001, "Kim");
 		hashMap.put(1002, "Lee");
 		hashMap.put(1003, "Park");
